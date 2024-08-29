@@ -15,7 +15,7 @@ Este repositorio contiene un ejemplo de una API que utiliza Wit.ai para el proce
 
 4. **Configurar la API en Postman**:
    **Crear una Nueva Colección** en Postman para que se vea organizado.
-   **Crear una Nueva Solicitud GEST** nos pregutamos porque GEST bunoe porque usa principalmente para consultas simples a la API de Wit.ai.
+   **Crear una Nueva Solicitud GET** nos pregutamos porque GET bunoe porque usa principalmente para consultas simples a la API de Wit.ai.
      - **URL**: `https://api.wit.ai/message`
      - **Headers**:
        - `Authorization: Bearer YOUR_WIT_AI_TOKEN`![5](https://github.com/user-attachments/assets/a52f8876-00d3-43ad-b426-26c888f203e4)
