@@ -1,28 +1,33 @@
-# Wit.ai API Example
-Este repositorio contiene un ejemplo de una API que utiliza Wit.ai para el procesamiento de lenguaje natural. La API se probó y configuró utilizando Postman.
-
+# GEMINI IA API
+  Este repositorio contiene un ejemplo de una API que utiliza **GeminiIA** para el procesamiento de lenguaje natural. La API se probó y configuró utilizando **Postman**
 ## Requisitos Previos
-- Cuenta en Wit.ai.
-- Postman instalado para probar la API.
-
+  - Cuenta en **GeminiIA**.
+  - **Postman** instalado para probar la API.
 ## Configuración
-1. **Crear una Cuenta en Wit.ai**:
-  Visita Wit.ai y regístrate utilizando tu cuenta de Facebook o CorreoElectronico.![2](https://github.com/user-attachments/assets/6cc58434-75f0-4831-8748-102630bc72b0)
-  Una vez registrado, crea una nueva aplicación y dale un nombre relevante a tu proyecto. ![3](https://github.com/user-attachments/assets/ed13ec52-3b75-44d5-8e75-c56572a17025)
 
-3. **Obtener el Token de Wit.ai**:
-   - Ve a la configuración de tu aplicación en Wit.ai y copia el **Server Access Token**. Este token es necesario para autenticar las solicitudes. ![7](https://github.com/user-attachments/assets/1b834ed9-8cf0-4434-a4c3-2e3a9f1fb349)
-
-4. **Configurar la API en Postman**:
-   **Crear una Nueva Colección** en Postman para que se vea organizado.
-   **Crear una Nueva Solicitud GET** nos pregutamos porque GET bunoe porque usa principalmente para consultas simples a la API de Wit.ai.
-     - **URL**: `https://api.wit.ai/message`
-     - **Headers**:
-       - `Authorization: Bearer YOUR_WIT_AI_TOKEN`![5](https://github.com/user-attachments/assets/a52f8876-00d3-43ad-b426-26c888f203e4)
-
-     - **Params**:
-       - `q`: El texto que deseas analizar. ![6](https://github.com/user-attachments/assets/a843b659-fd64-4131-83fe-b8054f53ac8c)
-
-     - **Enviar Solicitud**: Haz clic en "Send" para enviar la solicitud y recibir una respuesta con los datos procesados por Wit.ai. ![8](https://github.com/user-attachments/assets/2baa17c4-3695-4a87-a58f-9fcf961a4b11)
-
+### Crear una Cuenta en GeminiIA
+  - Visita el sitio web de [GeminiIA](https://geminiia.com) y regístrate utilizando tu cuenta de correo electrónico.  
+![image](https://github.com/user-attachments/assets/dfb1111b-b38c-48c6-93d7-f55ff8c88bc9)
+  - Rellena un pequeño formulario para mejorar tu experiencia dentro de la web.
+![image](https://github.com/user-attachments/assets/bb6c2524-4ab8-41d1-8201-8921a0a38ca2)
+  - Selecciona la api que piensas utilizar.
+![image](https://github.com/user-attachments/assets/16cc4c94-ae0c-4562-9ee0-eda544a71b79)
+  - De ejemplo utilizaré Gemini API.
+![image](https://github.com/user-attachments/assets/b6b1ed7c-5260-474c-a343-b6175427b6cf)
+  - Al entrar ya nos dan credenciales de implementación pero no funcionarán hasta que te suscribas, en la parte derecha-arriba.
+![image](https://github.com/user-attachments/assets/1a6ae5d7-6c19-443c-970b-db0a3b23cee1)
+  - Elegimos el plan.
+![image](https://github.com/user-attachments/assets/39d4c872-1ab7-4736-a407-1bdec144523a)
+  - Finalmente podremos utilizar el código y credenciales.
+![image](https://github.com/user-attachments/assets/49d10748-ca0e-403d-a26f-587eaeb0d719)
+# CONFIGURACIÓN DE POSTMAN
+  - Puedes iniciar sesión en Postman a tu preferencia, dentro debes crear tu Workspace para poder realizar las solicitudes.
+![image](https://github.com/user-attachments/assets/948331a2-a24a-43f2-a11d-5f45a5b11019)
+  - Luego ingresar las credenciales
+![image](https://github.com/user-attachments/assets/4b0dd1f5-7c08-40bf-abf9-4f4fe685c94e)
+  - En body seleccionamos raw y el formato json y colocamos lo siguiente:
+![image](https://github.com/user-attachments/assets/0f92a413-049f-430e-8751-be71cc302e8c)
+  - Reemplazamos la pregunta y presionamos en SEND.
+![image](https://github.com/user-attachments/assets/8c9b9f82-f5df-4bf4-b7fc-c30d50e8fd48)
+  - Eso es todo GRACIAS!! Espero y haiga comprendido!! :3
 ¡Danna Lopez Bravo!
